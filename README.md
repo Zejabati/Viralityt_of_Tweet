@@ -307,12 +307,6 @@ for i in range(len(df['date'])):
   df['Days_count'][i]=(d-date(Matrix[i][0],Matrix[i][1],Matrix[i][2])).days
 ```
 
-    <ipython-input-89-6f6eb7250377>:14: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df['Days_count'][i]=(d-date(Matrix[i][0],Matrix[i][1],Matrix[i][2])).days
-
 
 **Define x , y**
 
@@ -330,9 +324,6 @@ x = df[['tweet_length' , 'followers_count', 'friends_count','favourites_count','
 ```
 x.head()
 ```
-
-
-
 
 
   <div id="df-844664d0-b24d-41e8-88af-6ae1a72c7ad1" class="colab-df-container">
@@ -435,26 +426,7 @@ x.head()
   </tbody>
 </table>
 </div>
-    <div class="colab-df-buttons">
 
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-844664d0-b24d-41e8-88af-6ae1a72c7ad1')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-
-  </div>
-
-
-<div id="df-889ef14c-29c3-4942-ac0e-4f9ed98d86ab">
-  <button class="colab-df-quickchart" onclick="quickchart('df-889ef14c-29c3-4942-ac0e-4f9ed98d86ab')"
-            title="Suggest charts."
-            style="display:none;">
-
-
-</div>
-    </div>
-  </div>
 
 
 
